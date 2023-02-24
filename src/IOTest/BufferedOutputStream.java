@@ -9,8 +9,9 @@ public class BufferedOutputStream{
         th p=new th();
         Thread a=new Thread(p,"线程A");
         Thread b=new Thread(p,"线程B");
-//        Thread c=new Thread(p,"线程C");
-//        Thread d=new Thread(p,"线程D");
+        Thread c=new Thread(p,"线程C");
+        Thread d=new Thread(p,"线程D");
+        System.out.println("git");
         b.start();
 //        c.start();
         a.start();
