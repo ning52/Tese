@@ -12,6 +12,10 @@ public class BufferedOutputStream{
         Thread c=new Thread(p,"线程C");
         Thread d=new Thread(p,"线程D");
         System.out.println("git");
+        System.out.println("git");
+        System.out.println("git");
+        System.out.println("git");
+        System.out.println("git");
         b.start();
 //        c.start();
         a.start();
